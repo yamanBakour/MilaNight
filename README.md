@@ -3,7 +3,7 @@
 A modern, responsive landing page for a SaaS task management software built with React, TypeScript, and Tailwind CSS.
 
 ## 🚀 Live Demo
-[Add your live demo link here]
+https://69425e379e476307740688c0--polite-conkies-c83422.netlify.app/
 
 ## 📋 Technologies Used
 
