@@ -43,7 +43,7 @@ https://69425e379e476307740688c0--polite-conkies-c83422.netlify.app/
 - **Performance**: SVG icons with no external dependencies
 
 ## 🏗️ Project Structure
-taskflow-landing/
+```bash taskflow-landing/
 ├── public/
 │ └── vite.svg # Vite logo
 ├── src/
@@ -62,6 +62,7 @@ taskflow-landing/
 ├── tailwind.config.js # Tailwind CSS configuration
 ├── vite.config.ts # Vite configuration
 └── README.md # This file
+```
 
 ## 📁 Component Architecture
 
@@ -70,12 +71,6 @@ taskflow-landing/
 - **Features**:
   - Headline and subheadline
   - Call-to-action buttons (Start Free Trial, Watch Demo)
-  - Interactive dashboard mockup showing:
-    - Active projects with progress tracking
-    - Recent activity feed
-    - Team statistics
-    - Quick actions panel
-    - Upcoming deadlines
 
 ### **2. Features.tsx**
 - **Purpose**: Showcase core product features
@@ -133,7 +128,7 @@ taskflow-landing/
 ## 🚀 Getting Started
 
 ### **Prerequisites**
-- Node.js 16+ and npm/yarn
+- Node.js 16+ and pnpm
 
 ### **Installation**
 ```bash
@@ -144,112 +139,114 @@ git clone [repository-url]
 cd MilaNight
 
 # Install dependencies
-npm install
+pnpm install
 
 # Start development server
-npm run dev
+pnpm run dev
 
 # Build for production
-npm run build
+pnpm run build
 
 # Preview production build
-npm run preview
+pnpm run preview
+```
+### **📱 Responsive Design**
 
-📱 Responsive Design
+  The landing page is fully responsive with breakpoints at:
 
-The landing page is fully responsive with breakpoints at:
+  Mobile: < 640px (1 column layouts)
 
-    Mobile: < 640px (1 column layouts)
+  Tablet: 640px - 1024px (2 column layouts)
 
-    Tablet: 640px - 1024px (2 column layouts)
+  Desktop: > 1024px (3 column layouts)
 
-    Desktop: > 1024px (3 column layouts)
 
-🛠️ Development Features
-Code Quality
+### **🛠️ Development Features**
+  Code Quality
 
-    ESLint configured for React and TypeScript
+  ESLint configured for React and TypeScript
 
-    TypeScript strict mode enabled
+  TypeScript strict mode enabled
 
-    Consistent code formatting
+  Consistent code formatting
 
-Performance Optimizations
+  Performance Optimizations
 
-    Code splitting via Vite
+  Code splitting via Vite
 
-    Purged CSS in production
+  Purged CSS in production
 
-    Optimized images and assets
+  Optimized images and assets
 
-    Lazy loading ready
+  Lazy loading ready
 
-Accessibility
+### **Accessibility**
 
-    Semantic HTML structure
+  Semantic HTML structure
 
-    Proper ARIA labels where needed
+  Proper ARIA labels where needed
 
-    Keyboard navigable
+  Keyboard navigable
 
-    Sufficient color contrast
+  Sufficient color contrast
 
-🔧 Customization
+### **🔧 Customization**
+
 Content Updates
 
-    Modify text content directly in component files
+  Modify text content directly in component files
 
-    Update colors in tailwind.config.js
+  Update colors in tailwind.config.js
 
-    Replace icons from Lucide React library
+  Replace icons from Lucide React library
 
-Adding New Sections
+  Adding New Sections
 
-    Create new component in src/components/
+  Create new component in src/components/
 
-    Import and add to App.tsx
+  Import and add to App.tsx
 
-    Follow existing patterns for consistency
+  Follow existing patterns for consistency
 
-Deployment
+  Deployment
 
 The project can be deployed to:
 
-    Vercel (recommended)
+  Vercel (recommended)
 
-    Netlify
+  Netlify
 
-    GitHub Pages
+  GitHub Pages
 
-    Any static hosting service
+  Any static hosting service
 
-📈 Performance Metrics
+### **📈 Performance Metrics**
 
-    Lighthouse score: 95+ (Performance, Accessibility, Best Practices)
+  Lighthouse score: 95+ (Performance, Accessibility, Best Practices)
 
-    First Contentful Paint: < 1.5s
+  First Contentful Paint: < 1.5s
 
-    Total bundle size: < 100KB (gzipped)
+  Total bundle size: < 100KB (gzipped)
 
-🤝 Contributing
+### **🤝 Contributing**
 
-    Fork the repository
+  Fork the repository
 
-    Create a feature branch
+  Create a feature branch
 
-    Make your changes
+  Make your changes
 
-    Test thoroughly
+  Test thoroughly
 
-    Submit a pull request
+  Submit a pull request
 
-📄 License
+### **📄 License**
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+  This project is licensed under the MIT License - see the LICENSE file for details.
 🙏 Acknowledgments
 
-    Icons by Lucide
+  Icons by Lucide
 
-    Design inspiration from modern SaaS platforms
+  Design inspiration from modern SaaS platforms
 
-    Built with Vite
+  Built with Vite
